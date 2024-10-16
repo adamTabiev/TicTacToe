@@ -13,10 +13,6 @@ class TimeManager {
     
     private var timer: Timer?
     
-    // MARK: - External Methods
-    
-    /// Начинает таймер для игрока
-    /// - Parameters:
     ///   - playerTime: Время игрока, передается через замыкание, чтобы оно синхронизировалось с ViewModel
     ///   - onTimeUpdate: Замыкание для обновления времени во ViewModel
     func startPlayerTimer(playerTime: @escaping () -> Int, onTimeUpdate: @escaping (Int) -> Void) {

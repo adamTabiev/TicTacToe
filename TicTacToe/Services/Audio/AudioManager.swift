@@ -37,7 +37,6 @@ class AudioManager {
             musicPlayer = try AVAudioPlayer(contentsOf: url)
             musicPlayer?.numberOfLoops = -1  // Зацикливаем бесконечно
             musicPlayer?.play()
-            //print("Playing \(trackName)")
         } catch {
             print("Error: Could not play music: \(error.localizedDescription)")
         }
@@ -47,7 +46,6 @@ class AudioManager {
     func stopMusic() {
         if musicPlayer?.isPlaying == true {
             musicPlayer?.stop()
-            //print("Music stopped")
         }
     }
     
@@ -67,7 +65,6 @@ class AudioManager {
             // Инициализируем плеер звуковых эффектов
             sfxPlayer = try AVAudioPlayer(contentsOf: url)
             sfxPlayer?.play()
-            //print("Playing sound effect \(sfxName)")
         } catch {
             print("Error: Could not play sound effect: \(error.localizedDescription)")
         }
