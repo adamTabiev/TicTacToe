@@ -146,7 +146,7 @@ struct GameView: View {
                 
                 VStack {
                     Spacer()
-                    Text("Powered by DevRush")
+                    Text("")
                         .font(.system(size: 16, weight: .regular, design: .default))
                         .foregroundStyle(.customBlue)
                 }
