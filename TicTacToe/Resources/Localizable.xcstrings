@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     " " : {
       "localizations" : {
         "ru" : {
@@ -271,16 +274,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Второй игрок выйграл!"
-          }
-        }
-      }
-    },
-    "Powered by DevRush" : {
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Powered by DevRush"
           }
         }
       }
